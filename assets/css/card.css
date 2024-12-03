@@ -1,0 +1,95 @@
+}
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 50vw;
+    background: #f5f5f5;
+}
+.card__body {
+    padding: 24px;
+}
+.card__body .tit {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card__body .desc {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+.card__body .btn {
+    font-size: 16px;
+    color: #222;
+}
+    .header, .footer {
+        padding: 10px;
+    }
+    .card {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .banner, .imgText {
+        display: block;
+        width: 100%;
+    }
+}
+
+    .header, .footer {
+        padding: 8px;
+    }
+    .card, .banner, .imgText {
+        width: 100%;
+        margin: 4px 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+    .header, .footer {
+        padding: 15px;
+    }
+    .card {
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+    .banner, .imgText {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 85%;
+    }
+
+@media screen and (max-width: 768px) {
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
